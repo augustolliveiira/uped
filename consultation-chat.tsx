@@ -237,10 +237,16 @@ export default function ConsultationChat() {
               </div>
 
               <div className="space-y-3">
-                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 text-lg rounded-xl shadow-xl transform hover:scale-105 transition-all">
-                  <Crown className="mr-2 h-6 w-6" />
-                  SIM! QUERO SER UMA LENDA AGORA
-                </Button>
+              <Button
+  onClick={() => {
+    window.location.href = "https://pay.kirvano.com/426adb11-0c37-4844-8437-f7bc6d37d789"
+  }}
+  className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 text-lg rounded-xl shadow-xl transform hover:scale-105 transition-all"
+>
+  <Crown className="mr-2 h-6 w-6" />
+  SIM! QUERO SER UMA LENDA AGORA
+</Button>
+
 
                 <p className="text-xs text-slate-500">
                   ✅ Acesso IMEDIATO • 🔒 Pagamento 100% Seguro • 💎 Garantia Total
